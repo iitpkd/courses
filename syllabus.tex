@@ -1,8 +1,11 @@
 \documentclass{report}
-\title{Some day there will be a suitable title}
+\usepackage{titlesec}
+\usepackage{scrextend}
+\titleformat{\chapter}[display]{\normalfont \Large\centering}{}{0pt}{\Huge}
+\title{\Huge{Syllabus}}
 \usepackage{hyperref}
 \def\tightlist{}
 \begin{document}
-\chapter{Computer Science and Engineering}
-\input{cse.tex}
+\maketitle
+\include{course-details}
 \end{document}

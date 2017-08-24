@@ -1,16 +1,21 @@
 TEXGENEXT=aux dvi pdf fdb_latexmk fls log out pdf
-SUBDIRS=cse
+COURSELIST=$(wildcard cse/*.md)
 
-.PHONY: all clean
+
+
+.PHONY: all clean course-details.tex
 
 export TEXGENEXT
 
-all:
-	$(foreach dir, ${SUBDIRS}, make -C ${dir} all; \
-		echo > ${dir}.tex; \
-		awk ' { printf "\input{${dir}/%s}\n", $$0}' < ${dir}/texindex > ${dir}.tex; \
-	)
+all: syllabus.tex course-details.tex
 	latexmk -pdf syllabus.tex
 clean:
 	$(foreach dir, ${SUBDIRS}, make -C ${dir} clean; )
 	rm -f $(addprefix syllabus., ${TEXGENEXT})
+	stack clean
+build:
+	stack build
+
+course-details.tex: build
+	stack exec compilelatex refs ${COURSELIST} > latex.refs
+	stack exec compilelatex latex latex.refs ${COURSELIST} > course-details.tex
