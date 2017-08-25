@@ -52,3 +52,5 @@ make
 If you need to add a new course to the list edit the variable
 `COURSELIST` in the `Makefile`. You can use wild card patterns as
 well.
+
+[stack]: <https://docs.haskellstack.org/> "The haskell stack"
