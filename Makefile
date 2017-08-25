@@ -21,9 +21,11 @@ export TEXGENEXT
 all: syllabus.tex course-details.tex
 	latexmk -pdf syllabus.tex
 clean:
-	$(foreach dir, ${SUBDIRS}, make -C ${dir} clean; )
+	rm -f latex.refs course-details.tex
 	rm -f $(addprefix syllabus., ${TEXGENEXT})
+	rm -f $(addprefix course-details., ${TEXGENEXT})
 	stack clean
+
 build:
 	stack build
 
