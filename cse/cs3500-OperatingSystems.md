@@ -42,21 +42,21 @@ algorithm). Security.
 # Textbook(s)
 
 1. [Operating Systems: A Design-Oriented Approach][crowley], Charles Crowley,
-   International edition, McGraw-Hill Education (ISE Editions). [ISBN-13 978 0071144629]
+   International edition, McGraw-Hill Education (ISE Editions). 
    ISBN-13 978 0071144629
-2. [Operating Systems Concepts][silberschatz], Abraham Silberschatz, Peter B. Galvin and Greg Gagne, 
-   Wiley, 2015. [ISBN-13: 978-8126554270]
+2. Operating Systems Concepts, Abraham Silberschatz, Peter B. Galvin and Greg Gagne, 
+   Wiley, 2015. 
    ISBN-13: 978-8126554270
    
 # Reference(s)
 
-1. [Modern Operating Systems], Andrew S. Tanenbaum, Herbert Bos, Pearson
+1. Modern Operating Systems, Andrew S. Tanenbaum, Herbert Bos, Pearson
    Education India; Fourth edition 2016. 
    ISBN-13:978- 9332575776
-2. [Operating Systems: Internals and Design Principles] William Stallings, 
+2. Operating Systems: Internals and Design Principles William Stallings, 
    Pearson Education India; 7 edition (2013).
    ISBN-13: 978-9332518803
-3. [Linux Kernel Development (Developer's Library)] Robert Love, 
+3.  Linux Kernel Development (Developer's Library), Robert Love, 
     Pearson Education India, 3 edition (2010).
     ISBN-13: 978-8131758182
 
