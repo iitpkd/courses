@@ -1,6 +1,6 @@
 #     Edit this with the set of all course description files
 
-COURSELIST=$(wildcard cse/*.md)
+COURSELIST=$(sort $(wildcard cse/*.md))
 
 
 ############################################################
