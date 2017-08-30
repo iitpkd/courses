@@ -42,7 +42,10 @@ Introduction to discrete probability: Examples. Independence and conditional pro
 
 # Metadata
  
-* Proposing Faculty : 
+* Proposing Faculty : Inheritied from IIT Madras. 
 * Department / Centre : Computer Science and Engineering
 * Programme : B.Tech
 * Proposal Type: Old
+* Offerings
+	* 2016 Aug-Dec by Dr. Deepak Rajendraprasad
+	* 2017 Aug-Dec by Dr. Deepak Rajendraprasad
