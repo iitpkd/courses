@@ -3,7 +3,7 @@ title: Compiler Design
 code: CS3300
 category: PMT
 credits: 3-0-0-3
-prereq: [S2200, CS2800]
+prereq: [CS2200, CS2800]
 consent: no
 ---
 
