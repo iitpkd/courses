@@ -77,11 +77,11 @@ macro nm args = "\\" ++ nm ++ concatMap braces args
 chapter :: CourseMeta -> String
 chapter CourseMeta{..} = macro "chapter" [code ++ ": " ++ title]
 
-label       :: CourseMeta -> String
-label cmeta  = macro "label" [labelString cmeta]
+hypertarget       :: CourseMeta -> String
+hypertarget cmeta  = macro "hypertarget" [labelString cmeta, ""]
 
 header :: CourseMeta -> Pandoc
-header cmeta = Pandoc mempty [Plain [RawInline "latex" $ unwords [chapter cmeta, label cmeta]]]
+header cmeta = Pandoc mempty [Plain [RawInline "latex" $ unwords [chapter cmeta, hypertarget cmeta]]]
                <> metaInfo cmeta
 
 -- | Creates a definition list with
