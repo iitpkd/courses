@@ -8,12 +8,14 @@ maintainer:          ppk@cse.iitk.ac.in
 copyright:           2017, Piyush P Kurur
 build-type:          Simple
 extra-source-files:  README.md
+bug-reports: https://github.com/iitpkd/courses/issues
 cabal-version:       >=1.10
 
 source-repository head
-type:        git
-location:    https://github.com/iitpkd/courses/
-bug-reports: https://github.com/iitpkd/courses/issues
+  type:        git
+  location:    https://github.com/iitpkd/courses
+
+
 
 executable compilelatex
   hs-source-dirs:      src
