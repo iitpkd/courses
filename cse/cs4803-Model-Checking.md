@@ -15,7 +15,7 @@ In today’s world, many safety-critical systems are automatically controlled by
 
 The goal of this course is to understand the theoretical foundations of model Checking technology and get a hands-on experience with a tool that performs model checking.
 
-# Background
+# Required Background
 
 Familiarity with basic algorithms and finite-state machines
 
