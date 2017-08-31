@@ -1,12 +1,23 @@
 {-# LANGUAGE
     RecordWildCards
+  , OverloadedStrings
 #-}
 import           Data.List
+import           Data.Monoid
 import qualified Data.Set     as Set
+import           Data.String
 import           Course
 import           System.Environment
 import           Text.Pandoc
 
+-- | Options used to read the document.
+readerOpts :: ReaderOptions
+readerOpts = def { readerExtensions = Set.insert Ext_yaml_metadata_block defaultExts }
+  where defaultExts = readerExtensions def
+
+-- | Writer options.
+writerOpts :: WriterOptions
+writerOpts = def
 
 main :: IO ()
 main = do args <- getArgs
@@ -22,8 +33,10 @@ main = do args <- getArgs
 
 -- | Compile the set of latex
 latexFiles :: FilePath -> [FilePath] -> IO String
-latexFiles refFile fps = do rs <-  readFile refFile
-                            concat <$> mapM (latex rs) fps
+latexFiles refFile fps = do
+  rs      <-  readFile refFile
+  process <$> mapM (readMarkdownFile rs) fps
+  where process = writeLaTeX writerOpts . mconcat
 
 -- | Given a set of course description files generate the references.
 references :: [FilePath] -> IO String
@@ -32,66 +45,53 @@ references = fmap refs . mapM readMeta
         refs = unlines . map ref
 
 
-latex :: String -> FilePath -> IO String
-latex refs fp = do
-  mta <- readMeta fp
-  toLaTeX mta <$> readMarkdownFile refs fp
-  where toLaTeX cmeta pdoc = unlines [ courseHead cmeta
-                                     , writeLaTeX def pdoc
-                                     ]
-        courseHead cmeta = unlines [chapter cmeta, label cmeta, summary cmeta]
-
-
-
-summary :: CourseMeta -> String
-summary CourseMeta{..} = descriptionList [ ("Course Code"        , code                           )
-                                         , ("Category"           , category                       )
-                                         , ("Credits"            , credits                        )
-                                         , ("Instructor Consent" , consentToStr consent           )
-                                         , ("Pre-requisites"     , unwords $ map courseCode prereq)
-                                         ]
-  where consentToStr c | c          = "required"
-                       | otherwise  = "automatic"
-
-
 
 readMarkdownFile :: String -> FilePath -> IO Pandoc
-readMarkdownFile refs fp = ioPDoc >>= either err return
-  where attachRefs s     = unlines [s, "", "", refs]
-        readIt           = readMarkdown readerOpts . attachRefs
-        ioPDoc           = readIt <$> readFile fp
-        err e            = fail $ unwords [fp ++ ": " , show e]
-        readerOpts       = def { readerExtensions = Set.insert Ext_yaml_metadata_block defaultExts }
-        defaultExts      = readerExtensions def
+readMarkdownFile refs fp = do
+  mta      <- readMeta fp
+  contents <- readFile fp
+  let head         = header mta
+      attachRefs s = unlines [s, "", "", refs]
+      document     = mappend head <$> readMarkdown readerOpts (attachRefs contents)
+      err e        = fail $ unwords [fp ++ ": " , show e]
+    in either err return document
 
+
+-----------------  Some helpers -----------------------------------
+
+-- | The label associated with a course.
+courseLabelString cd = "course-" ++ cd
+labelString          = courseLabelString . code
 
 -------------------------- LaTeX helpers -----------------
 
-
-courseLabelString cd = "course-" ++ cd
-labelString = courseLabelString . code
 
 -- | A general latex macro
 macro nm args = "\\" ++ nm ++ concatMap braces args
   where braces x = "{" ++ x ++ "}"
 
-macroOpt nm Nothing  = macro nm
-macroOpt nm (Just x) = macro (nm ++ optArg)
-  where optArg = "[" ++ x ++ "]"
-
 -- | Some specific latex macros
 chapter    CourseMeta{..} = macro "chapter" [code ++ ": " ++ title]
-label cmeta           = macro "label" [courseLabelString $ code cmeta]
+label      cmeta          = macro "label"   [labelString cmeta]
+
+header :: CourseMeta -> Pandoc
+header cmeta = Pandoc mempty [Plain [RawInline "latex" $ unwords [chapter cmeta, label cmeta]]]
+               <> metaInfo cmeta
+
+-- | Creates a definition list with
+metaInfo :: CourseMeta -> Pandoc
+metaInfo CourseMeta{..} = Pandoc mempty [
+  DefinitionList $ map wrap [ ("Course Code"        , [Str code])
+                            , ("Category"           , [Str category])
+                            , ("Credits"            , [Str credits])
+                            , ("Instructor Consent" , consentToBlocks consent)
+                            , ("Pre-requisites"     , intersperse (Str ", ") $ map courseLink prereq)
+                            ]
+  ]
+  where consentToBlocks c | c          = [Str "required"]
+                          | otherwise  = [Str "automatic"]
+        wrap (i,d) = ([Str i], [ [Plain d]])
+
 
 -- | Course code
-courseCode s    = macro ("hyperref" ++ "[" ++ courseLabelString s ++ "]")[s]
-begin s         = macro "begin" s
-end   s         = macro "end"   [s]
-item  i         = macroOpt "item" (Just i)[]
-description i d = item i ++ " " ++ d
-
-descriptionList s = unlines $ [begin ["labeling", hint]] ++
-                    [description i d | (i, d) <- s] ++
-                    [end "labeling"]
-  where sz = maximum $ map (length . fst) s
-        hint = replicate sz 'a'
+courseLink s    = Link nullAttr ([Str s]) ("#" ++ courseLabelString s,s)
