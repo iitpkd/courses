@@ -5,7 +5,6 @@
 import           Data.List
 import           Data.Monoid
 import qualified Data.Set     as Set
-import           Data.String
 import           Course
 import           System.Environment
 import           Text.Pandoc
@@ -50,9 +49,9 @@ readMarkdownFile :: String -> FilePath -> IO Pandoc
 readMarkdownFile refs fp = do
   mta      <- readMeta fp
   contents <- readFile fp
-  let head         = header mta
+  let hdr          = header mta
       attachRefs s = unlines [s, "", "", refs]
-      document     = mappend head <$> readMarkdown readerOpts (attachRefs contents)
+      document     = mappend hdr <$> readMarkdown readerOpts (attachRefs contents)
       err e        = fail $ unwords [fp ++ ": " , show e]
     in either err return document
 
@@ -60,19 +59,26 @@ readMarkdownFile refs fp = do
 -----------------  Some helpers -----------------------------------
 
 -- | The label associated with a course.
+courseLabelString :: String -> String
 courseLabelString cd = "course-" ++ cd
+
+labelString :: CourseMeta -> String
 labelString          = courseLabelString . code
 
 -------------------------- LaTeX helpers -----------------
 
 
 -- | A general latex macro
+macro :: String -> [String] -> String
 macro nm args = "\\" ++ nm ++ concatMap braces args
   where braces x = "{" ++ x ++ "}"
 
 -- | Some specific latex macros
-chapter    CourseMeta{..} = macro "chapter" [code ++ ": " ++ title]
-label      cmeta          = macro "label"   [labelString cmeta]
+chapter :: CourseMeta -> String
+chapter CourseMeta{..} = macro "chapter" [code ++ ": " ++ title]
+
+label       :: CourseMeta -> String
+label cmeta  = macro "label" [labelString cmeta]
 
 header :: CourseMeta -> Pandoc
 header cmeta = Pandoc mempty [Plain [RawInline "latex" $ unwords [chapter cmeta, label cmeta]]]
@@ -94,4 +100,5 @@ metaInfo CourseMeta{..} = Pandoc mempty [
 
 
 -- | Course code
+courseLink :: String -> Inline
 courseLink s    = Link nullAttr ([Str s]) ("#" ++ courseLabelString s,s)
