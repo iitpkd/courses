@@ -6,6 +6,10 @@ credits: 3-1-0-4
 prereq: []
 consent: No
 ---
+# Learning Objectives
+
+Acquire some basic mathematical tools and techniques of algorithm analysis.
+To be familiar with some important data structures and to develop the ability to choose the appropriate data structure for designing efficient algorithms. Learn some basic algorithms with their rigours proofs of correctness and efficiency analysis of implementation using appropriate data structures.
 
 # Syllabus 
 
