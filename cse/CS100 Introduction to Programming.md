@@ -12,11 +12,11 @@ consent: No
 *Basic organization of a computer:* ALU, input-output units, memory, program counter - variables and
 addresses - instructions: store, arithmetic, input and output
 
-*Simple sequential programs*
-*Memory state transitions*
-*Conditional instruction:* if then else, control flow diagrams, nested conditions
-*Iterations:* while loop and its control flow
-*Arrays:* indexing, memory model, programs with array of integers, two dimensional arrays
+*Simple sequential programs*, 
+*Memory state transitions*,
+*Conditional instruction:* if then else, control flow diagrams, nested conditions,
+*Iterations:* while loop and its control flow,
+*Arrays:* indexing, memory model, programs with array of integers, two dimensional arrays,
 *Variants of conditional and iterative instructions*
 
 *Pointers:* dereferencing and address operators, pointer and address arithmetic, array manipulation using pointers
@@ -25,7 +25,7 @@ addresses - instructions: store, arithmetic, input and output
 with parameters, returning a value, multiple parameters, data flow during function call, modifying
 parameters inside functions using pointers, arrays as parameters. 
 
-*Computer representation of integers:* signed and unsigned integers, ranges and overflow 
+*Computer representation of integers:* signed and unsigned integers, ranges and overflow,
 *Different data types:*  floating point representations, precision and range, error in representation
 
 *Functions with different parameter types and return types *,user defined data types for data abstraction.
