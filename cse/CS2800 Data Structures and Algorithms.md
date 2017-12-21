@@ -28,4 +28,4 @@ Search Tree - Binary search tree; balanced binary search trees - AVL tree; Appli
 * Department / Centre : Computer Science and Engineering
 * Programme : B.Tech 
 * Proposal Type: Old
-* Offerings : Jasine Babu Jan-May 2017
+* Offerings : 2017 Jan-Apr Dr.Jasine Babu
