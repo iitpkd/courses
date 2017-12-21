@@ -28,7 +28,7 @@ parameters inside functions using pointers, arrays as parameters.
 *Computer representation of integers:* signed and unsigned integers, ranges and overflow,
 *Different data types:*  floating point representations, precision and range, error in representation
 
-*Functions with different parameter types and return types *,user defined data types for data abstraction.
+*Functions with different parameter types and return types* , user defined data types for data abstraction.
 
 Recommended programming language to be used for instruction is C.
 
