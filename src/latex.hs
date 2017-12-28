@@ -2,6 +2,7 @@
     RecordWildCards
   , OverloadedStrings
 #-}
+import           Data.Char
 import           Data.List
 import           Data.Monoid
 import qualified Data.Set     as Set
@@ -65,7 +66,7 @@ readMarkdownFile refs fp = do
 
 -- | The label associated with a course.
 courseLabelString :: String -> String
-courseLabelString cd = "course-" ++ cd
+courseLabelString cd = "course-" ++ map toUpper cd
 
 labelString :: CourseMeta -> String
 labelString          = courseLabelString . code
