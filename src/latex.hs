@@ -8,6 +8,7 @@ import qualified Data.Set     as Set
 import           Course
 import           System.Environment
 import           Text.Pandoc
+import           Text.Pandoc.Walk
 
 -- | Options used to read the document.
 readerOpts :: ReaderOptions
@@ -53,7 +54,11 @@ readMarkdownFile refs fp = do
       attachRefs s = unlines [s, "", "", refs]
       document     = mappend hdr <$> readMarkdown readerOpts (attachRefs contents)
       err e        = fail $ unwords [fp ++ ": " , show e]
-    in either err return document
+      attachCode   :: Block -> Block
+      attachCode (Header n (idf,clz,kvp) inl) = Header n (code mta ++ "-" ++ idf, clz,kvp) inl
+      attachCode x                            = x
+     in either err (return . walk attachCode) document
+
 
 
 -----------------  Some helpers -----------------------------------
