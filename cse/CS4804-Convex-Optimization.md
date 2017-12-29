@@ -17,13 +17,19 @@ At the end of the course student will be able to define appropriate optimization
 # Syllabus
 
 *INTRODUCTION * : convex sets, functions ,  basics of convex analysis, [2 lectures]
+
 *RELEVANT OPTIMIZATION CONCEPTS AND METHODS* : Constrained vs. unconstrained; QP, LP and NLP , Combinatorial, Stochastic and Semi-definite optimization algorithms; Min-Max algorithms; Extreme point analysis, saddle point method. Chance constrained program. (8 lectures)
+
 *UNCONSTRAINED OPTIMIZATION AND MULTIDIMENSIONAL GRADIENT METHODS*: Steepest-Descent, Conjugate-Gradient, Newton, Quasi-Newton, Sub-Gradient,  (4 lectures)
+
 *Few Selected Topics from following list* : (4 lectures)
 Stochastic Gradient descent, Proximal methods, Accelerated Proximal methods, ADMM, convex optimization for big data, interior-point methods; 
+
 *CONSTRAINED OPTIMIZATION*: Lagrange Multiplier, Karush Kuhn Tucker (KKT) conditions, First-Order and Second-Order Necessary Conditions for minima and maxima; (4 lectures)
+
 *Few Selected Topics from following list* : (4 lectures)
 Duality Theory. Project Gradient, L*-norms; Multiple kernel Method, penalty barrier methods
+
 *APPLICATION* :  signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design and finance. (4 lectures)
 
 
