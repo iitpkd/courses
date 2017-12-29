@@ -11,14 +11,21 @@ To learn key algorithms, methods, and models commonly used in data science today
 
 # Learning outcome
 At the end of the course, the students should be
-aware of classical problems, and commonly encountered problems and their solutions
+
+1. aware of classical problems, and commonly encountered problems and their solutions
 able to find relevant family of classical problems, and recent literature given a new problem to solve
-aware of the philosophy and logic behind development of some key algorithms, that will help them to appreciate and grow taste towards foundations of data science
-confident to study and analyse different types of datasets 
-able to build mathematical problem behind any practical problem and find out appropriate mathematical theories to proceed
-able to select proper algorithm and implement it depending on the problem and dataset
-able to analyse the outcome and develop upon shortcomings
-aware of best practices to carry out experiments and present results 
+
+2. aware of the philosophy and logic behind development of some key algorithms, that will help them to appreciate and grow taste towards foundations of data science
+
+3. confident to study and analyse different types of datasets 
+
+4. able to build mathematical problem behind any practical problem and find out appropriate mathematical theories to proceed
+
+5. able to select proper algorithm and implement it depending on the problem and dataset
+
+6. able to analyse the outcome and develop upon shortcomings
+
+7. aware of best practices to carry out experiments and present results 
 
  
 # Syllabus
