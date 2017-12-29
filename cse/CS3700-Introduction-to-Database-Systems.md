@@ -3,7 +3,7 @@ title: Introduction to Database Systems
 code: CS3700
 category: PMT
 credits: 3-0-0-3
-prereq: []
+prereq: CS1100-Introduction-to-Programming
 consent: No
 ---
 # Learning Objectives
@@ -31,20 +31,17 @@ RDBMS and describe the practical implications of each approach. Student will als
 *Transaction processing and Error recovery* - concepts of transaction processing, ACID properties, concurrency control, locking based protocols for CC, error recovery and logging, undo, redo, undo-redo logging and recovery methods.
 
 
-
 # Text books
 
 1. Database System Concepts (Sixth Edition)
 Avi Silberschatz, Henry F. Korth, S. Sudarshan
 McGraw-Hill 2011
 ISBN 978-0071325226/ 0-07-352332-1
-Copy:9
 
 2.Database Management Systems, Third Edition 
 Raghu Ramakrishnan and Johannes Gehrke
 McGraw-Hill ©2003
 ISBN: 978-0072465631/ 0-07-246563-8
-Copy: 9
 
 # Refferenes
 
@@ -52,7 +49,6 @@ Copy: 9
 Ramez Elmasri, University of Texas at Arlington Shamkant B. Navathe
 Pearson India ©2011
 ISBN 978-0321369574
-Copy: 5
 [This book has e-copy available]
 
 
@@ -60,9 +56,6 @@ Copy: 5
 Hector Garcia-Molina, Jeffrey D Ullman and Jennifer Widom
 Pearson India
 ISBN: 978-9332518674,    9-33-251867-X
-Copy: 5
-
-
 
 # Meta Data	 	 	
  
