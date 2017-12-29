@@ -3,7 +3,7 @@ title: Introduction to Database Systems
 code: CS3700
 category: PMT
 credits: 3-0-0-3
-prereq: CS1100-Introduction-to-Programming
+prereq: [CS1100]
 consent: No
 ---
 # Learning Objectives
