@@ -1,5 +1,5 @@
 ---
-title: Theory and practices of Data Science
+title: Theory and Practice of Data Science
 code: CS4806
 category: GCE
 credits: 2-0-2-4
