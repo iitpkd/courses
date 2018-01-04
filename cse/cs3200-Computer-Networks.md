@@ -1,6 +1,6 @@
 ---
 title: Computer Networks
-code: CS3015
+code: CS3200
 category: PMT
 credits: 3-0-0-3
 prereq: []
