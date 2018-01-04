@@ -43,3 +43,11 @@ web, DNS.
 Basics of network security, symmetric and asymmetric key cryptography,
 key exchange, digital signatures. Some security related protocols,
 ssh, tls etc.
+
+# Textbooks
+
+1. Computer Networks, Andrew S. Tanenbaum and David J Wetherall, 5th
+   Edition.  Pearson publication.
+
+2. Computer Networking: A Top-Down Approach Featuring the Internet,
+   James F Kurose and Keith W Ross. Pearson publication.
