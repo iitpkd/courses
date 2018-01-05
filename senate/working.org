@@ -6,7 +6,7 @@
 
 * Changes to Syllabus
 
-** CS3300 Compiler Design
+** TODO CS3300 Compiler Design
 
 1. Change the title from Language Translators to Compiler Design
 
