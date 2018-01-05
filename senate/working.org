@@ -1,0 +1,16 @@
+#+STARTUP: indent
+#+TITLE: Curriculum review proposal
+#+AUTHOR: Computer Science and Engineering, IIT Palakkad.
+#+OPTIONS: toc:nil
+#+LATEX_CLASS_OPTIONS: [a4paper, 11pt]
+
+* Changes to Syllabus
+
+** CS3300 Compiler Design
+
+1. Change the title from Language Translators to Compiler Design
+
+2. Added few more Text book.
+
+3. If possible move the course to 6th semester. Will need to move
+   some other course to 5th. Most likely databases.
