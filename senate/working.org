@@ -28,18 +28,18 @@
 1. New course 3 credit and GCE
 2. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th and convex optmization to 5th. (In case I need to lecture for DBMS for next sem)  
 
-** TODO CS5801 Principle of Machine Learning 
-1. Minor modification in syllabus of CS4801.
+** TODO CS5802 Principle of Machine Learning 
+1. Addition in syllabus (kernel method, EM, Deep learning) in syllabus of CS4801.
 2. 4 credit and PME/PME* 
-3. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th 
+3. 6th semester course
 
-** TODO CS4801 Introduction to Machine Learning 
+** TODO CS4807 Introduction to Machine Learning 
 1. Minor modification from previous CS4801 to make it 3 credit GCE from 4 credit GCE/PME
-2. only GCE and 3 credit
+2. only GCE/PME and 3 credit
 3. 5th sem course for all sttudent
 
 
-** TODO CS6804 Learning from Big Data
+** TODO CS6801 Learning from Big Data
 1. New course 
 2. Research course PME/PME* for Undergrades
 3. Proposed by Sahely and approved by Mrinal 
