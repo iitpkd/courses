@@ -69,10 +69,6 @@ able to find relevant family of classical problems, and recent literature given 
 
 2. Introduction to Probability Models, Eleventh Edition. Sheldon Ross. 11th Edition. ISBN-13: 978-0124079489. Academic Press. 2014.
 
-3. Probabilistic Programming & Bayesian Methods for Hackers. Addison-Wesley Data and Analytics. ISBN-13: 978-0133902839. 
+3. Introduction to Information Retrieval South Asian Edition. Christopher D. Manning, Hinrich Schütze, and Prabhakar Raghavan. Cambridge University Press. 2008. ISBN-13: 978-1107666399.
 
-4. Introduction to Information Retrieval South Asian Edition. Christopher D. Manning, Hinrich Schütze, and Prabhakar Raghavan. Cambridge University Press. 2008.
-
-5. Reading list from Stanford on Deep Learning. http://deeplearning.net/tutorial/
-
-6. The Algorithmic Foundation of Differential Privacy. Cynthia Dwork. 2014. Foundations and Trends in Theoretical Computer Science. 
+4. The Algorithmic Foundation of Differential Privacy. Cynthia Dwork. 2014. Foundations and Trends in Theoretical Computer Science.  Now Publishers Inc. ISBN-13: 978-1601988188.
