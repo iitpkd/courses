@@ -1,7 +1,7 @@
 ---
 title: Principles of Machine Learning 
-code: CS5801
-category: PME/PME*
+code: CS5801 / CS4801
+category: PME/PME*(4 credit) /CGE (3 credit)
 credits: 3-1-0-4
 prereq: []
 consent: Yes
@@ -12,7 +12,7 @@ This is an intermediate level course in computer science field and assumes backg
 
 # Learning outcome
 
-Upon successful completion, the students will be able to  implement few machine learning models like regression classification and clustering and will be able to learn models from data and evaluate models on test data. 
+Upon successful completion, the students will be able to  implement few machine learning models like regression classification and clustering and will be able to learn models from data and evaluate models on test data. Student will be able to decide about which ML model should be applied for which kind of data and why?
 
 # Syllabus
 
