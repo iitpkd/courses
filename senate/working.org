@@ -33,12 +33,6 @@
 2. 4 credit and PME/PME* 
 3. 6th semester course
 
-** TODO CS4501 Introduction to Machine Learning 
-1. Minor modification from previous CS4801 to make it 3 credit GCE from 4 credit GCE/PME
-2. only GCE and 3 credit
-3. 5th sem course for all sttudent
-
-
 ** TODO CS6801 Learning from Big Data
 1. New course 
 2. Research course PME/PME* for Undergrades
