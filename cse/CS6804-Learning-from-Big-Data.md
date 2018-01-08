@@ -30,13 +30,14 @@ Nonparametric Bayesian techniques for big-data
  Artificial neural,networks, word2vec models, RNN, CNN, LSTM.
 
 ### Large scale optimization :   
-
 Gradient method, Quasi-Newton methods, Conjugate gradient method, Subgradients, Subgradient method, Proximal gradient method, Conjugate functions, The proximal mapping, Accelerated proximal gradient methods,Proximal point method, 
 Dual decomposition, Dual proximal gradient method, Primal-dual proximal methods, Conic optimization, Barrier functions, Path-following methods, Symmetric cones,Primal-dual interior-point methods
 Douglas-Rachford splitting and ADMM, 
 
-### Distributed Computing : parallel programming and  Map-reduce framework,HPC.
-### Case-studies:  topic models, SVM, K-means 
+### Distributed Computing : 
+parallel programming and  Map-reduce framework,HPC.
+### Case-studies:  
+topic models, SVM, K-means 
 
 
 # Text books
@@ -49,7 +50,7 @@ Douglas-Rachford splitting and ADMM,
 
 4.D. Bertsekas and J. Tsitsiklis, Parallel and Distributed Computation, Athena Scientific. 2015. ISBN 1-886529-15-9
 
-#Refferenes
+# Refferenes
 
 1.Nesterov, Yu. "Introductory lectures on convex programming volume I: Basic course." Lecture notes (1998).
 
