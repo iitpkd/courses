@@ -40,7 +40,7 @@
 2. 2-0-2-4 
 
 
-** TODO CS5802 Machine Learning 
+** TODO Dual credit CS4501/CS5802 Principles of Machine Learning 
 1. According to student feedback the proposed CS4801 was a bit heavy course as GCE. Hence I want to make this as a dual numbered course with following details
 2. numbering and credit 
       CS6802 : 4 credit course for research student and can eb taken by Btech stuent as elective (PME*/PME). in addition to the three hours of lecture this will contain one hour of seminar/ from student side.
