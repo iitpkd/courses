@@ -45,4 +45,8 @@
 3. Proposed by Sahely and approved by Mrinal 
 
 
+** TODO CS5806 Theory and Practice of Data Science
+1. Change from CS4806 with minor modification 
+2. 2-0-2-4 
+
 
