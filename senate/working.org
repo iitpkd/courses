@@ -27,7 +27,7 @@
 ** TODO CS4804 Convex Optimization
 1. New course 
 
-** TODO CS5804 Convex Optimization for Big Data
+** TODO CS6804 Convex Optimization for Big Data
 1. New course 
 2. Research course
 
