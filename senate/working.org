@@ -25,7 +25,7 @@
 2. Addition in Syllabus 'Non-SQL Database'
 
 ** TODO CS4804 Convex Optimization
-1. New course 3 credit and GCE
+1. New course 3 credit and GCE/PME/PME*
 2. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th and convex optmization to 5th. (In case I need to lecture for DBMS for next sem)  
 
 ** TODO CS5802 Machine Learning 
