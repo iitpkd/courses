@@ -16,7 +16,20 @@ At the end of course student will be able to implement and use few existing mode
 
 # Syllabus
 
+ Probabilistic Methods  for Big-Data: 
+Sequential learning using Bayesian principle, stochastic optimization for Bayesian models, sequential Monte-Carlo, stochastic variational optimization
+Distributed algorithms for Bayesian models, map-reduce technique, synchronous, and asynchronous methods
+Alternative methods for big-data -- sub-sampling principles, 
+Nonparametric Bayesian techniques for big-data
+Deep learning 
+ Artificial neural,networks, word2vec models, RNN, CNN, LSTM.
+Large scale optimization :   
+Gradient method, Quasi-Newton methods, Conjugate gradient method, Subgradients, Subgradient method, Proximal gradient method, Conjugate functions, The proximal mapping, Accelerated proximal gradient methods,Proximal point method, 
+Dual decomposition, Dual proximal gradient method, Primal-dual proximal methods, Conic optimization, Barrier functions, Path-following methods, Symmetric cones,Primal-dual interior-point methods
+Douglas-Rachford splitting and ADMM, 
 
+Distributed Computing : parallel programming and  Map-reduce framework,HPC.
+Case-studies:  topic models, SVM, K-means 
 
 
 # Text books
