@@ -1,6 +1,6 @@
 ---
 title: Principles of Machine Learning 
-code: CS5801 / CS4801
+code: CS6802 / CS4501
 category: PME/PME*(4 credit) /CGE (3 credit)
 credits: 3-1-0-4
 prereq: []
