@@ -1,6 +1,6 @@
 ---
 title: Convex Optimization
-code: CS4804
+code: CS5804
 category: PME/PME*/GCE
 credits: 3-0-0-3
 prereq: []
