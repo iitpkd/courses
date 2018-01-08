@@ -30,7 +30,7 @@
 
 ** TODO CS4801 Principle of Machine Learning 
 1. If thre is a problem with PME/GCE then I would like to keep it as 4 credit PME/PME* course. 
-2. Want to chang in number from CS4801 to CS5801
+2. Want to change in number from CS4801 to CS5801
 3. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th 
 
 
