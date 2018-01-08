@@ -64,7 +64,7 @@ able to find relevant family of classical problems, and recent literature given 
 
 2. Bayesian Data Analysis. Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin. Third Edition. http://www.stat.columbia.edu/~gelman/book/.
 
-#Refferenes
+#Referenes
 1. Teaching statistics a bag of tricks. Andrew Gelman and Deborah Nolan. ISBN-13: 9780198572244. Oxford University Press, 2002. 
 
 2. Introduction to Probability Models, Eleventh Edition. Sheldon Ross. 11th Edition. ISBN-13: 978-0124079489. Academic Press. 2014.
