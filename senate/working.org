@@ -18,3 +18,12 @@
 ** TODO CS3200 Computer Networks
 
 1. Additional text books and some learning objectives.
+
+
+** TODO CS3700 Introduction to Database System
+1. Additional text books and some learning objectives.
+
+** TODO CS4804 Convex Optimization
+1. New course 
+
+
