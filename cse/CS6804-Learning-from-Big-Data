@@ -41,17 +41,16 @@ Douglas-Rachford splitting and ADMM,
 
 # Text books
 
-1. Boyd, Stephen, Neal Parikh, Eric Chu, Borja Peleato, and Jonathan Eckstein. "Distributed optimization and statistical learning via the alternating direction method of multipliers." Foundations and Trends® in Machine Learning 3, no. 1 (2011): 1-122.
-2. Parikh, Neal, and Stephen Boyd. "Proximal algorithms." Foundations and Trends® in Optimization 1, no. 3 (2014): 127-239
-3. Convex Optimization,   Stephen Boyd and Lieven Vandenberghe  Paperback Cambridge India (2016) ISBN-13: 978-1316603598/1316603598
-
-2. Practical Methods of Optimization 2nd Edition Paperback ,  Wiley India (2017) ISBN-13: 978-8126567904/8126567902
+1.Deep Learning. Ian Goodfellow, Yoshua Bengio, Aaron Courville. The MIT Press, 2016. ISBN-13: 978-0262035613.
+2.Boyd, Stephen, Neal Parikh, Eric Chu, Borja Peleato, and Jonathan Eckstein. "Distributed optimization and statistical learning via the alternating direction method of multipliers." Foundations and Trends® in Machine Learning 3, no. 1 (2011): 1-122.
+3.Parikh, Neal, and Stephen Boyd. "Proximal algorithms." Foundations and Trends® in Optimization 1, no. 3 (2014): 127-239
+4.D. Bertsekas and J. Tsitsiklis, Parallel and Distributed Computation, Athena Scientific. 2015. ISBN 1-886529-15-9
 
 #Refferenes
 
-1. Convex Optimization Theory, 1st Edition, Dimitri P. Bertsek ,  Paperback Universities Press, @2010, ISBN-13: : 978-8173717147/ 8173717141
-
-2. Convex Optimization Algorithm, 1st Edition, Dimitri P. Bertsek ,  Universities Press, @2010, ISBN-13: 978-1886529281/ 1886529280
+1.Nesterov, Yu. "Introductory lectures on convex programming volume I: Basic course." Lecture notes (1998).
+2.Convex Optimization Theory, 1st Edition, Dimitri P. Bertsek ,  Paperback Universities Press, @2010, ISBN-13: : 978-8173717147/ 8173717141
+3.Convex Optimization Algorithm, 1st Edition, Dimitri P. Bertsek ,  Universities Press, @2010, ISBN-13: 978-1886529281/ 1886529280
 
 
 
