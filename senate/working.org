@@ -28,10 +28,6 @@
 1. New course 3 credit and GCE/PME/PME*
 2. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th and convex optmization to 5th. (In case I need to lecture for DBMS for next sem)  
 
-** TODO CS5802 Machine Learning 
-1. Addition in syllabus (kernel method, EM, Deep learning) in syllabus of CS4801.
-2. 4 credit and PME/PME* 
-3. 6th semester course
 
 ** TODO CS6801 Learning from Big Data
 1. New course 
@@ -42,5 +38,14 @@
 ** TODO CS5806 Theory and Practice of Data Science
 1. Change from CS4806 with minor modification 
 2. 2-0-2-4 
+
+
+** TODO CS5802 Machine Learning 
+1. According to student feedback the proposed CS4801 was a bit heavy course as GCE. Hence I want to make this as a dual numbered course with following details
+2. numbering and credit 
+      CS6802 : 4 credit course for research student and can eb taken by Btech stuent as elective (PME*/PME). in addition to the three hours of lecture this will contain one hour of seminar/ from student side.
+      CS4501 : 3 credit course as GCE only 3 lectures 
+3. Additional topics for CS6802:   Kernel method, Multiple kernel learning, baysian learning Topic modeling, Deep Learning
+
 
 
