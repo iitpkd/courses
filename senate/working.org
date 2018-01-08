@@ -29,7 +29,7 @@
 2. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th and convex optmization to 5th. (In case I need to lecture for DBMS for next sem)  
 
 ** TODO CS5801 Principle of Machine Learning 
-1. Minor additiona in syllabus of CS4801.
+1. Minor modification in syllabus of CS4801.
 2. 4 credit and PME/PME* 
 3. In case want to shift DBMS to 5th then I would like to switch Machine Learning to 6th 
 
