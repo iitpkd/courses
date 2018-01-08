@@ -22,8 +22,14 @@
 
 ** TODO CS3700 Introduction to Database System
 1. Additional text books and some learning objectives.
+2. Addition in Syllabus 'Non-SQL Database'
 
 ** TODO CS4804 Convex Optimization
 1. New course 
+
+** TODO CS5804 Convex Optimization
+1. New course 
+2. Research course
+
 
 
