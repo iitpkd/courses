@@ -1,0 +1,44 @@
+---
+title: Learning from Big Data
+code: CS6804
+category: PME/PME*
+credits: 3-1-0-4
+prereq: []
+consent: Yes
+---
+# Learning Objectives
+
+This course concentrates on recognizing and solving modern data science problem that arise in applications. 
+
+# Learning outcome
+
+At the end of course student will be able to implement and use few existing modern technique for big data in their projects. Student will be able to analysis the complexity of an optimization problem and its solution. 
+
+# Syllabus
+
+
+
+
+# Text books
+
+1. Boyd, Stephen, Neal Parikh, Eric Chu, Borja Peleato, and Jonathan Eckstein. "Distributed optimization and statistical learning via the alternating direction method of multipliers." Foundations and Trends® in Machine Learning 3, no. 1 (2011): 1-122.
+2. Parikh, Neal, and Stephen Boyd. "Proximal algorithms." Foundations and Trends® in Optimization 1, no. 3 (2014): 127-239
+3. Convex Optimization,   Stephen Boyd and Lieven Vandenberghe  Paperback Cambridge India (2016) ISBN-13: 978-1316603598/1316603598
+
+2. Practical Methods of Optimization 2nd Edition Paperback ,  Wiley India (2017) ISBN-13: 978-8126567904/8126567902
+
+#Refferenes
+
+1. Convex Optimization Theory, 1st Edition, Dimitri P. Bertsek ,  Paperback Universities Press, @2010, ISBN-13: : 978-8173717147/ 8173717141
+
+2. Convex Optimization Algorithm, 1st Edition, Dimitri P. Bertsek ,  Universities Press, @2010, ISBN-13: 978-1886529281/ 1886529280
+
+
+
+# Meta Data	 	 	
+ 
+* Proposing Faculty : Dr Sahely Bhadra
+* Department / Centre : Computer Science and Engineering
+* Programme : B.Tech
+* Proposal Type: Old 
+* Offerings
