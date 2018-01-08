@@ -30,6 +30,7 @@ RDBMS and describe the practical implications of each approach. Student will als
 
 *Transaction processing and Error recovery* - concepts of transaction processing, ACID properties, concurrency control, locking based protocols for CC, error recovery and logging, undo, redo, undo-redo logging and recovery methods.
 
+*No SQL Database* - MongoDB
 
 # Text books
 
