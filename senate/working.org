@@ -15,6 +15,6 @@
 3. If possible move the course to 6th semester. Will need to move
    some other course to 5th. Most likely databases.
 
-** TODO Computer Networks
+** TODO CS3200 Computer Networks
 
 1. Additional text books and some learning objectives.
