@@ -1,6 +1,6 @@
 ---
 title: Topics in Graph Theory
-code: CS58xx
+code: CS6001
 category: PME
 credits: 3-0-0-3
 prereq: []
