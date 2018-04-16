@@ -42,4 +42,4 @@ readMeta :: FilePath -> IO CourseMeta
 readMeta fp = do
   res <- meta <$> L.readFile fp
   either err return res
-  where err x = fail $ "meta-data:error: " ++ x
+  where err x = fail $ unwords ["meta-data:error:", "in", fp ++ ":", x ]
