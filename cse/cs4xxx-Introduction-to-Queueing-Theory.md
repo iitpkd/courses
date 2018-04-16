@@ -1,9 +1,11 @@
-| title: **Introduction to Queueing Theory (Pending Approval)**
-| code: **CS4504**
-| category: **PME**
-| credits: **3-0-1-4**
-| prereq: **[]**
-| consent: **Required**
+---
+title: Introduction to Queueing Theory (Pending Approval)
+code: CS4504
+category: PME
+credits: 3-0-1-4
+prereq: []
+consent: yes
+---
 
 # Learning Objectives
 

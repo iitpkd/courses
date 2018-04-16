@@ -1,10 +1,10 @@
 ---
-title: **Combinatorics (Pending Approval)**
-code: **CS4503**
-category: **PME** 
-credits: **3-0-0-3**
-prereq: **[Discrete Math]** 
-consent: **Required** 
+title: Combinatorics (Pending Approval)
+code: CS4503
+category: PME
+credits: 3-0-0-3
+prereq: [cs2100]
+consent: yes
 ---
 
 # Learning Objectives
