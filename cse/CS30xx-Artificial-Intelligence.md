@@ -50,15 +50,15 @@ Students will be able to state and apply major algorithms, methods, and theoreti
 
 # Refferenes
 
-1.Genetic Algorithms in Search, Optimization, and Machine Learning. David E. Goldberg. Pearson Education, 2006. ISBN-13: 9788177588293.
-2.Principles Of Artificial Intelligence. N.J. Nilsson. Narosa Book Distributors. 2002.ISBN-13: 978-8185198293
-3.Probabilistic Programming & Bayesian Methods for Hackers. Addison-Wesley Data and Analytics. ISBN-13: 978-0133902839.
-4.Introduction to Information Retrieval South Asian Edition. Christopher D. Manning, Hinrich Schütze, and Prabhakar Raghavan. Cambridge University Press. 2008. ISBN-13: 978-1107666399.
-5.Teaching statistics a bag of tricks. Andrew Gelman and Deborah Nolan. Oxford University Press, 2002. ISBN-13: 9780198572244.
-6.Advanced Methods for Knowledge Discovery from Complex Data. Sanghamitra Bandyopadhyay. Springer Science & Business Media, 2005. ISBN-13: 9781852339890. 
-7.Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. Aurélien Géron. O'Reilly Media; 1 edition (April 9, 2017). ISBN-13: 978-1491962299.
-8.Deep Learning.  Ian Goodfellow, Yoshua Bengio, Aaron Courville.  The MIT Press, 2016.  ISBN-13: 978-0262035613.
-9.Bayesian Data Analysis. Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin. Third Edition. 2013. ISBN-13: 978-1439840955. 
+1. Genetic Algorithms in Search, Optimization, and Machine Learning. David E. Goldberg. Pearson Education, 2006. ISBN-13: 9788177588293.
+2. Principles Of Artificial Intelligence. N.J. Nilsson. Narosa Book Distributors. 2002.ISBN-13: 978-8185198293
+3. Probabilistic Programming & Bayesian Methods for Hackers. Addison-Wesley Data and Analytics. ISBN-13: 978-0133902839.
+4. Introduction to Information Retrieval South Asian Edition. Christopher D. Manning, Hinrich Schütze, and Prabhakar Raghavan. Cambridge University Press. 2008. ISBN-13: 978-1107666399.
+5. Teaching statistics a bag of tricks. Andrew Gelman and Deborah Nolan. Oxford University Press, 2002. ISBN-13: 9780198572244.
+6. Advanced Methods for Knowledge Discovery from Complex Data. Sanghamitra Bandyopadhyay. Springer Science & Business Media, 2005. ISBN-13: 9781852339890. 
+7. Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. Aurélien Géron. O'Reilly Media; 1 edition (April 9, 2017). ISBN-13: 978-1491962299.
+8. Deep Learning.  Ian Goodfellow, Yoshua Bengio, Aaron Courville.  The MIT Press, 2016.  ISBN-13: 978-0262035613.
+9. Bayesian Data Analysis. Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin. Third Edition. 2013. ISBN-13: 978-1439840955. 
 
  
 
