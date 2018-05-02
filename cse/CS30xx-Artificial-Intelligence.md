@@ -37,18 +37,18 @@ Students will be able to state and apply major algorithms, methods, and theoreti
 
 # Text books
 
-1.Artificial Intelligence : A Modern Approach (Paperpack). Stuart Russell and Peter Norvig. Pearson; 3 edition. 2010 ISBN-13: 978-0132071482 
+1. Artificial Intelligence : A Modern Approach (Paperpack). Stuart Russell and Peter Norvig. Pearson; 3 edition. 2010 ISBN-13: 978-0132071482 
 
-2.Fundamentals of the New Artificial Intelligence. Toshinori Munakata. Springer Science & Business Media. ISBN 978-1-84628-839-5
+2. Fundamentals of the New Artificial Intelligence. Toshinori Munakata. Springer Science & Business Media. ISBN 978-1-84628-839-5
 
-3.Pattern Recognition and Machine Learning. Christopher Bishop. Springer. 2006. ISBN-13 978-0-387-31073-2.
+3. Pattern Recognition and Machine Learning. Christopher Bishop. Springer. 2006. ISBN-13 978-0-387-31073-2.
 
-4.Artificial Intelligence (Third Edition).Elaine Rich,Kevin Knight,Shivashankar B. Nair. Tata McGraw-Hill Education Pvt. Ltd.. 2008. ISBN 13: 9780070087705
+4. Artificial Intelligence (Third Edition).Elaine Rich,Kevin Knight,Shivashankar B. Nair. Tata McGraw-Hill Education Pvt. Ltd.. 2008. ISBN 13: 9780070087705
 
-5.Reinforcement Learning: An Introduction. Richard S. Sutton Andrew G. Barto . MIT Press, 2017. ISBN-13: 9780262332767 
+5. Reinforcement Learning: An Introduction. Richard S. Sutton Andrew G. Barto . MIT Press, 2017. ISBN-13: 9780262332767 
 
 
-#Refferenes
+# Refferenes
 
 1.Genetic Algorithms in Search, Optimization, and Machine Learning. David E. Goldberg. Pearson Education, 2006. ISBN-13: 9788177588293.
 2.Principles Of Artificial Intelligence. N.J. Nilsson. Narosa Book Distributors. 2002.ISBN-13: 978-8185198293
