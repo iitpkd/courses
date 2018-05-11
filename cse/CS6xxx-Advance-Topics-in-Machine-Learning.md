@@ -18,15 +18,13 @@ At the end of this course students will be able to implement and use some of the
 
 *Hierarchical Bayesian models: generative models, Topic models, Bayesian nonparametrics 
 
-*Deep learning, artificial neural networks, State-of-art  multi layered neural network.
-
-*Large scale optimization :   Subgradient method, Proximal method, Primal-dual proximal methods, Alternating Direction method for multipliers 
+*Deep learning, artificial neural networks.
 
 *Distributed Computing : parallel programming and  Map-reduce framework, High Performance Computing.
 
-*Sequential learning: Bayesian sequential learning, stochastic gradient descent
+*Sequential learning: Bayesian sequential learning, stochastic gradient descent.
 
-*Kernel Learning, multi view spatio-temporal learning, structure prediction
+*Kernel Learning, multi view spatio-temporal learning, structure prediction.
 
 *Privacy-aware learning
 
