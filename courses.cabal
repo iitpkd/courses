@@ -28,5 +28,7 @@ executable compilelatex
                      , filepath
                      , pandoc
                      , pandoc-types
+                     , text
+                     , vector
                      , yaml
   default-language:    Haskell2010

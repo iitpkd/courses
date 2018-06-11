@@ -42,8 +42,9 @@ latexFiles refFile fps = do
 -- | Given a set of course description files generate the references.
 references :: [FilePath] -> IO String
 references = fmap refs . mapM readMeta
-  where ref cm@(CourseMeta{..}) = "[" ++ code ++ "]: #" ++ labelString cm
-        refs = unlines . map ref
+  where ref cm@(CourseMeta{..}) = map singleRef $ labelStrings cm
+        singleRef ccode = "[" ++ ccode ++ "]: #" ++ ccode
+        refs = unlines . concatMap ref
 
 
 
@@ -56,7 +57,7 @@ readMarkdownFile refs fp = do
       document     = mappend hdr <$> readMarkdown readerOpts (attachRefs contents)
       err e        = fail $ unwords [fp ++ ": " , show e]
       attachCode   :: Block -> Block
-      attachCode (Header n (idf,clz,kvp) inl) = Header n (code mta ++ "-" ++ idf, clz,kvp) inl
+      attachCode (Header n (idf,clz,kvp) inl) = Header n (head (code mta) ++ "-" ++ idf, clz,kvp) inl
       attachCode x                            = x
      in either err (return . walk attachCode) document
 
@@ -68,10 +69,13 @@ readMarkdownFile refs fp = do
 courseLabelString :: String -> String
 courseLabelString cd = "course-" ++ map toUpper cd
 
-labelString :: CourseMeta -> String
-labelString          = courseLabelString . code
+labelStrings :: CourseMeta -> [String]
+labelStrings = map courseLabelString . code
 
 -------------------------- LaTeX helpers -----------------
+
+multiCode = intercalate "/"
+
 
 
 -- | A general latex macro
@@ -81,10 +85,11 @@ macro nm args = "\\" ++ nm ++ concatMap braces args
 
 -- | Some specific latex macros
 chapter :: CourseMeta -> String
-chapter CourseMeta{..} = macro "chapter" [code ++ ": " ++ title]
+chapter CourseMeta{..} = macro "chapter" [multiCode code ++ ": " ++ title]
 
 hypertarget       :: CourseMeta -> String
-hypertarget cmeta  = macro "hypertarget" [labelString cmeta, ""]
+hypertarget        = unlines . map htarget . code
+  where htarget c  = macro "hypertarget" [courseLabelString c,""]
 
 header :: CourseMeta -> Pandoc
 header cmeta = Pandoc mempty [Plain [RawInline "latex" $ unwords [chapter cmeta, hypertarget cmeta]]]
@@ -93,7 +98,7 @@ header cmeta = Pandoc mempty [Plain [RawInline "latex" $ unwords [chapter cmeta,
 -- | Creates a definition list with
 metaInfo :: CourseMeta -> Pandoc
 metaInfo CourseMeta{..} = Pandoc mempty [
-  DefinitionList $ map wrap [ ("Course Code"        , [Str code])
+  DefinitionList $ map wrap [ ("Course Code"        , [Str $ multiCode code])
                             , ("Category"           , [Str category])
                             , ("Credits"            , [Str credits])
                             , ("Instructor Consent" , consentToBlocks consent)
