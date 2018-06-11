@@ -14,17 +14,20 @@ COURSELIST=$(sort $(wildcard cse/*.md))
 
 TEXGENEXT=aux dvi pdf fdb_latexmk fls log out pdf
 
-.PHONY: all clean course-details.tex
+.PHONY: all clean course-details.tex dist-clean
 
 export TEXGENEXT
 
 all: syllabus.tex course-details.tex
 	latexmk -pdf syllabus.tex
+
+dist-clean: clean
+	stack clean
 clean:
 	rm -f latex.refs course-details.tex
 	rm -f $(addprefix syllabus., ${TEXGENEXT})
 	rm -f $(addprefix course-details., ${TEXGENEXT})
-	stack clean
+
 
 build:
 	stack build
