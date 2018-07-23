@@ -1,8 +1,8 @@
 ---
 title: Principles of Machine Learning 
 code: CS4801
-category: PME/PME*/GCE
-credits: 3-1-0-4
+category: GCE
+credits: 3-0-0-3
 prereq: []
 consent: Yes
 ---
