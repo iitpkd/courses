@@ -23,9 +23,7 @@ Upon successful completion, the students will be able to  implement few machine 
  
 *Non-parametric  Methods:*  k-Nearest  Neighbours,  Parzen  Window.[2 lecture]
 
-*Discriminative  Learning  models:*  LDA,  Logistic  Regression,  Perceptrons,
-
-Support  Vector  Machines.  [6  lectures]
+*Discriminative  Learning  models:*  LDA,  Logistic  Regression,  Perceptrons, Support  Vector  Machines.  [6  lectures]
 
 *Dimensionality  Reduction:*  Principal  Component  Analysis,  Fischer's  Discriminant Analysis.  [4  lectures]
 
