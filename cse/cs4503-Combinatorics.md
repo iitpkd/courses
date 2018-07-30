@@ -1,5 +1,5 @@
 ---
-title: Combinatorics (Pending Approval)
+title: Combinatorics
 code: CS4503
 category: PME
 credits: 3-0-0-3
