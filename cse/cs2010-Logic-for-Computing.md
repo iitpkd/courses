@@ -7,12 +7,6 @@ prereq: []
 consent: No
 ---
 
-# Administrative Data
-
-Course Code		Category	Credits		Prereqiuisites
------------		--------	-------		--------------
-CS2010			PMT			3-0-0-3		None
-
 # Learning Objective
 
 Rigorous mathematical reasoning based on Logic and Set Theory is the basic
