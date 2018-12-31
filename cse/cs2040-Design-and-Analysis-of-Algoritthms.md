@@ -1,11 +1,12 @@
 ---
 title: Design and Analysis of Algorithms
-code: CS3xxx
+code: CS2040
 category: PMT
 credits: 3-1-0-4
 prereq: Data Structures and Algorithms
 consent: No
 ---
+
 # Learning Objectives
 This is an intermediate course on algorithm design. The first
 part of this course is intended to make students familiar with some basic graph

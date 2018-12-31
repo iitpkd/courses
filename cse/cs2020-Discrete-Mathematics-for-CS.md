@@ -1,13 +1,11 @@
-% CS2020 Discrete Mathematics for Computer Science
-
-\vspace*{-1.5cm}
-\pagenumbering{gobble}
-
-**Course Code and Title:** CS2020 Discrete Mathematics for Computer Science \
-**Category:** PMT\
-**Credits:** 3-0-0-3\
-**Prerequisites:** CS2010 Logic for Computing\
-**Consent of Teacher:** No
+----
+title: Discrete Mathematics for Computer Science
+code: CS22020
+category: PMT
+credits: 3-0-0-3
+prereq: CS2100 Logic for Computing
+consent: No
+---
 
 # Course Objective
 
