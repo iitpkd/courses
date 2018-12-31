@@ -97,9 +97,5 @@ Birthday paradox.
 Proposing Faculty : Deepak Rajendraprasad\
 Stream : Computer Science and Engineering\
 Programme : B.Tech\
-Proposal Type: Revision --- A new course, CS2010 Logic for Computing, was 
-introduced in the third semester core. It covers some of the topics
-(Introduction to Logic and Set Theory) originally covered here. This revision
-is primarily to address that overlap.
 
 
