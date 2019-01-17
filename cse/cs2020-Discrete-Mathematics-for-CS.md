@@ -1,4 +1,4 @@
-----
+---
 title: Discrete Mathematics for Computer Science
 code: CS22020
 category: PMT
@@ -24,51 +24,43 @@ analyse such questions.
 
 # Syllabus 
 
-**Basic counting.**
+**Basic counting** (3 lectures).
 Counting functions, subsets and permutations. Estimation of factorials and
 binomial coefficients. Lower bound for sorting algorithms.
-\hfill [3~lectures]
 
-**Combinatorial Principles.**
+**Combinatorial Principles** (6 lectures).
 Inclusion–exclusion principle, Bijective proof, Double counting, Pigeonhole
 principle, Method of distinguished element, Twelvefold way. Lower bound for
 merging algorithms.
-\hfill [6~lectures]
 
-**Graphs.**
+**Graphs** (9 lectures).
 Graphs as models of interaction. Graph isomorphism, subgraphs, subgraph
 isomorphism. Degree sequences, Havel–Hakimi algorithm. Eulerian graphs and
 Eulerian digraphs. Hamiltonian cycles and Dirac's theorem. Computational
 complexity of these problems (without proofs). Triangle-free graphs and
 Mantel's theorem. 
-\hfill [9~lectures]
 
-**Bipartite graphs.**
+**Bipartite graphs** (3 lectures).
 Characterisations of bipartite graphs. Matchings, Hall's marriage theorem,
 Kőnig's theorem. Edge-colouring of bipartite graphs.
-\hfill [3~lectures]
 
-**Planar graphs.**
+**Planar graphs** (3 lectures)
 Euler's formula. Vertex colouring of planar graphs, Six colour theorem and Five
 colour theorem.
-\hfill [3~lectures]
 
-**Orderings.**
+**Orderings** (6 lectures).
 Partial orders and Hasse diagram. Lattices. Linear extension, chains and
 antichains. Scheduling. Mirsky's theorem and  Erdős–Szekeres
 theorem.
-\hfill [6~lectures]
 
-**Generating functions.**
+**Generating functions** (6 lectures).
 Combinatorial applications of polynomials. Sequences and generating functions.
 Fibonacci and Catalan numbers. Integer partitions
-\hfill [6~lectures]
 
-**Probabilistic Methods.**
+**Probabilistic Methods** (6 lectures).
 Proofs by counting. Finite probability spaces and random variables over them.
 Basic probabilistic method and method of expectation. Coupon collector problem.
 Birthday paradox.
-\hfill [6~lectures]
 
 
 # Textbook
