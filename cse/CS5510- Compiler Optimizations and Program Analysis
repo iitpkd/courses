@@ -1,7 +1,7 @@
 
-| Title                                       | Code   | Category | Credit | Prereq                 | Consent |
-|---------------------------------------------|--------|----------|--------|------------------------|---------|
-| Compiler Optimizations and Program Analysis | CS5510 | ERC      |     3  | CS3300 Compiler Design | Required|
+| Title | Code   | Category | Credit | Prereq | Consent |
+| --- | --- | --- | --- | --- | --- |
+| Compiler Optimizations and Program Analysis| CS5510 | ERC|3|CS3300 Compiler Design|Required|
 
 1. Course Code and Title: CS5510 Compiler Optimizations and Program Analysis
 2. Category: ERC
