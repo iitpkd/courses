@@ -1,4 +1,5 @@
- ---
+
+---
  title: Compiler Optimizations and Program Analysis
  code: CS5510
  category: ERC
