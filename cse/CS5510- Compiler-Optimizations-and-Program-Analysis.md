@@ -1,7 +1,7 @@
  
  |Title|Code|Category|Credits|Prereq|Consent|
  | :---: | :---: | :---: | :---: | :---: | :---:|
- |Compiler Optimizations and Program Analysis|CS5510|ERC|3-0-0-3| CS3300| Required|
+ |Compiler Optimizations and Program Analysis|CS5510|ERC|3-0-0-3| CS3300 Compiler Design| Required|
  
 
 # Learning Objectives:
