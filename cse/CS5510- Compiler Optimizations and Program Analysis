@@ -4,7 +4,7 @@
  code: CS5510
  category: ERC
  credits: 3
- prereq: CS3300 Compiler Design
+ prereq: [CS3300]
  consent: Required
  ---
 
