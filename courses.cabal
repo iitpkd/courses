@@ -17,20 +17,14 @@ source-repository head
   type:        git
   location:    https://github.com/iitpkd/courses
 
+common defaults
+  default-language: Haskell2010
+  ghc-options: -Wall
+  build-depends: base >= 4.7 && < 5
 
-
-executable compilelatex
+executable build
+  import: defaults
   hs-source-dirs:      src
-  main-is: latex.hs
-  other-modules:      Course
-  build-depends:       base >= 4.7 && < 5
-                     , bytestring
-                     , containers
-                     , data-default
-                     , filepath
-                     , pandoc
-                     , pandoc-types
-                     , text
-                     , vector
-                     , yaml
-  default-language:    Haskell2010
+  main-is: build.hs
+  build-depends: slick
+               , shake
