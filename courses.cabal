@@ -26,5 +26,12 @@ executable build
   import: defaults
   hs-source-dirs:      src
   main-is: build.hs
-  build-depends: slick
+  build-depends: aeson
+               , filepath
+               , pandoc
+               , slick
                , shake
+               , unordered-containers
+               , vector
+               , data-default
+               , text

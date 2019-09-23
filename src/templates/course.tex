@@ -1,0 +1,31 @@
+
+\chapter{ {{code}}: {{title}} }
+
+
+\begin{description}
+\tightlist
+\item[Course Code]
+{{code}}
+\item[Category]
+{{category}}
+\item[Credits]
+  {{credits}}
+
+  {{#consent}}
+\item[Instructor Consent]
+  required
+  {{/consent}}
+
+  {{^consent}}
+\item[Instructor Consent]
+  automatic
+  {{/consent}}
+
+
+\item[Pre-requisites]
+  {{#prereq}} \hyperref[{{course}}]{ {{course}} } {{/prereq}}
+
+
+\end{description}
+
+{{content}}
