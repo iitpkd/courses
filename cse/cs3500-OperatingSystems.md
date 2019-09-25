@@ -31,10 +31,10 @@ issues involved in the design of a large software.
 scheduling algorithms representing fairness, infinite wait, optimal scheduling,
 priority inversion)
 
-* Synchronization Primitives and Problems, Deadlocks (essential topics: Peterson&#39;s
+* Synchronization Primitives and Problems, Deadlocks (essential topics: Peterson's
 algorithm, monitors)
 
-* Memory Management : Virtual Memory, Demand Paging (essential topics: fragmentation, pinning, Belady&#39;s anomaly, thrashing)
+* Memory Management : Virtual Memory, Demand Paging (essential topics: fragmentation, pinning, Belady's anomaly, thrashing)
 
 * File systems; I/O Management (essential topics: DMA, delayed writes, elevator
 algorithm). Security.
