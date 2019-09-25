@@ -28,7 +28,7 @@ optReader :: ReaderOptions
 optReader = def { readerExtensions = exts }
   where exts = readerExtensions def
                <> multimarkdownExtensions
-               <> extensionsFromList [Ext_yaml_metadata_block]
+               <> extensionsFromList [Ext_yaml_metadata_block, Ext_smart]
 
 optWriter :: WriterOptions
 optWriter = def
@@ -40,24 +40,42 @@ main :: IO ()
 main = slick buildRules
 
 
-
 buildRules :: Action ()
 buildRules = do
   _ <- buildCourses
   liftIO $ putStrLn "done"
 
 
+
 --------------------- Courses --------------------------------
 buildCourses :: Action ()
-buildCourses = getDirectoryFiles "." courses >>= mapM_ buildCourse
+buildCourses = do cs <- getDirectoryFiles "." courses
+                  mapM_ buildCourse cs
+                  rendered <- renderWithTemplate "src/templates/all-courses.tex" $ makeCourseList cs
+                  writeFile' (texSrcDir </> "all.tex") (unpack rendered)
+
 
 buildCourse :: FilePath -> Action ()
 buildCourse fp = do
   liftIO $ putStrLn fp
   courseToLaTeX fp
 
+
+
+courseTeXName :: FilePath -> FilePath
+courseTeXName fp = replaceExtension (takeFileName fp) "tex"
+
 courseDestName    :: FilePath -> FilePath
-courseDestName fp = texSrcDir </>replaceExtensions (takeFileName fp) "tex"
+courseDestName fp = texSrcDir </> courseTeXName fp
+
+makeCourseList :: [FilePath] -> Value
+makeCourseList = Object
+                 . H.singleton "courses"
+                 . mkCourseArray
+                 . Prelude.map mkEntry
+  where mkCourseArray = Array . V.map (Object . H.singleton "course") . V.fromList
+        mkEntry fp = String $ pack $ courseTeXName fp
+
 
 
 -- | Compile the course with course compiler.
