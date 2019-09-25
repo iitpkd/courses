@@ -22,10 +22,10 @@ common defaults
   ghc-options: -Wall
   build-depends: base >= 4.7 && < 5
 
-executable build
+executable driver
   import: defaults
   hs-source-dirs:      src
-  main-is: build.hs
+  main-is: driver.hs
   build-depends: aeson
                , filepath
                , pandoc
