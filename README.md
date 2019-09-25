@@ -1,5 +1,7 @@
 # Courses taught at IIT Palakkad.
 
+[![Build Staus][travis-status]][travis-courses]
+
 This repository contains details regarding various courses taught at
 IIT Palakkad. For a new course, create a markdown file. We suggest
 using the naming convention coursecode-hyphenated-title.md, for
@@ -53,3 +55,7 @@ cd artefact/latex # move into the directory that contains the tex source.
 pdflatex all.tex  # compile it using pdflatex.
 
 ```
+
+
+[travis-status]: <https://secure.travis-ci.org/iitpkd/courses.png> "Build status"
+[travis-courses]: <https://travis-ci.org/iitpkd/courses>
