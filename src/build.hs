@@ -18,7 +18,7 @@ courses = ["cse/*.md"]
 
 -- | Where to build the intermediate files.
 artefact :: FilePath
-artefact = ".artefact"
+artefact = "artefact"
 
 
 texSrcDir :: FilePath
