@@ -4,7 +4,6 @@ code: CS3500
 category: PMT
 credits: 3-0-0-3
 prereq: [CS2600, CS2610, CS2800]
-consent: no
 ---
 
 This course will introduce the student to the basic concepts

@@ -4,7 +4,6 @@ code: CS3300
 category: PMT
 credits: 3-0-0-3
 prereq: [CS2200, CS2800]
-consent: no
 ---
 
 A compiler is program that convert high level (human understandable)

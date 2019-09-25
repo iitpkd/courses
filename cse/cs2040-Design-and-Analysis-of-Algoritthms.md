@@ -4,7 +4,6 @@ code: CS2040
 category: PMT
 credits: 3-1-0-4
 prereq: [CS2800]
-consent: No
 ---
 
 # Learning Objectives

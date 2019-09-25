@@ -3,7 +3,6 @@ title: Probability and Computing
 code: CS5820
 category: PME/PME*
 credits: 3-1-0-4
-prereq: []
 consent: Yes
 ---
 # Learning Objectives

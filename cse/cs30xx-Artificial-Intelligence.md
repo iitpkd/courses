@@ -3,7 +3,6 @@ title: Artificial Intelligence
 code: CS
 category: PMT
 credits: 3-0-0-3
-prereq: []
 consent: Yes
 ---
 # Learning Objectives

@@ -3,7 +3,6 @@ title: Advanced Topics in Machine Learning
 code: CS6xxx
 category: PME/PME*(3 credit)
 credits: 3-0-0-3
-prereq: []
 consent: Yes
 ---
 

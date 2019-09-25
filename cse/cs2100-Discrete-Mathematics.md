@@ -3,8 +3,6 @@ title: Discrete Mathematics for Computer Science
 code: CS2100
 category: PMT
 credits: 3-0-0-3
-prereq: []
-consent: No
 ---
 
 # Syllabus 

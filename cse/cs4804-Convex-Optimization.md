@@ -3,7 +3,6 @@ title: Convex Optimization
 code: CS4804
 category: PME/PME*/GCE
 credits: 3-0-0-3
-prereq: []
 consent: Yes
 ---
 # Learning Objectives

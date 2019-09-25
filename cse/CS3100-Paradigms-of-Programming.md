@@ -3,8 +3,6 @@ title: Paradigms of Programming
 code: CS3100
 category: PME
 credits: 4-0-0-4
-prereq: []
-consent: No
 ---
 
 # Learning Objectives

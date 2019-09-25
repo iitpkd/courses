@@ -3,8 +3,6 @@ title: Computer Networks
 code: CS3200
 category: PMT
 credits: 3-0-0-3
-prereq: []
-consent: no
 ---
 
 > The Internet, like the steam engine, is a technological breakthrough

@@ -3,7 +3,6 @@ title: Languages, Machines and Computation
 code: CS2200
 category: PMT
 credits: 3-1-0-4
-prereq: []
 consent: Yes
 ---
 

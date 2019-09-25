@@ -3,7 +3,7 @@ title: Design and Analysis of Algorithms
 code: CS4802
 category: PME/PME*
 credits: 3-1-0-4
-prereq: [cs2100, cs2800]
+prereq: [CS2100, CS2800]
 consent: yes
 ---
 

@@ -3,8 +3,6 @@ title: Logic for Computing
 code: CS2010
 category: PMT
 credits: 3-0-0-3
-prereq: []
-consent: No
 ---
 
 # Learning Objective

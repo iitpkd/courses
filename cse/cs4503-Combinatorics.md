@@ -4,7 +4,6 @@ code: CS4503
 category: PME
 credits: 3-0-0-3
 prereq: [cs2100]
-consent: yes
 ---
 
 # Learning Objectives

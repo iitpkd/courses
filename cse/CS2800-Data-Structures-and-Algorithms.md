@@ -3,8 +3,6 @@ title: Data Structures and Algorithms
 code: CS2800
 category: PMT
 credits: 3-1-0-4
-prereq: []
-consent: No
 ---
 # Learning Objectives
 

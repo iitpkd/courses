@@ -3,8 +3,6 @@ title: Computer Organization
 code: CS2600
 category: PMT
 credits: 3-0-0-3
-prereq: []
-consent: no
 ---
 
 # Description

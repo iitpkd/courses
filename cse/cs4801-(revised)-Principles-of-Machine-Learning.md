@@ -3,7 +3,6 @@ title: Principles of Machine Learning
 code: CS4801
 category: GCE
 credits: 3-0-0-3
-prereq: []
 consent: Yes
 ---
 # Learning Objectives
