@@ -66,8 +66,7 @@ courseToLaTeX fp = do
   txt <- readFile' fp
   let rdr  = readMarkdown optReader
       wrr  = writeLaTeX optWriter
-      transMeta = normaliseCode fp . adjustPrereq fp
-    in do cs       <- transMeta <$> loadUsing rdr wrr (pack txt)
+    in do cs       <- processMeta fp <$> loadUsing rdr wrr (pack txt)
           rendered <- renderWithTemplate "src/templates/course.tex" cs
           writeFile' (courseDestName fp) (unpack rendered)
 
@@ -80,6 +79,10 @@ renderWithTemplate templateFile v = do
 
 
 --------------------------- Some helper function for processing values ---------------------
+
+-- | Process metadata in a suitable way
+processMeta :: FilePath -> Value -> Value
+processMeta fp = normaliseCode fp . adjustPrereq fp . addTotalCredits fp
 
 -- | Adjust the field of a metadata to suit the template.
 adjustField :: Text -> (Value -> Value) -> FilePath -> Value -> Value
@@ -97,3 +100,11 @@ normaliseCode :: FilePath -> Value -> Value
 normaliseCode = adjustField "code" normCode
   where normCode (String t) = String $ toUpper t
         normCode _          = error "normaliseCode: expected string but got something else"
+
+addTotalCredits :: FilePath -> Value -> Value
+addTotalCredits fp (Object o) = Object $ H.insert "total-credits" (credits creditsField) o
+  where credits (String t) = String . Prelude.last $ splitOn "-" t
+        credits _          = error $ unwords [fp ++ ":", "credits field bad format"]
+        creditsField       = H.lookupDefault err "credits" o
+        err                = error $ unwords [fp ++ ":", "no credits field"]
+addTotalCredits fp _ = error $ unwords [fp ++ ":", "metadata is not a hash"]
