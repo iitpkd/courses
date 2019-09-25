@@ -48,10 +48,10 @@ buildRules = do
 
 
 --------------------- Courses --------------------------------
-buildCourses :: Action [Value]
-buildCourses = getDirectoryFiles "." courses >>= mapM buildCourse
+buildCourses :: Action ()
+buildCourses = getDirectoryFiles "." courses >>= mapM_ buildCourse
 
-buildCourse :: FilePath -> Action Value
+buildCourse :: FilePath -> Action ()
 buildCourse fp = do
   liftIO $ putStrLn fp
   courseToLaTeX fp
@@ -61,21 +61,21 @@ courseDestName fp = texSrcDir </>replaceExtensions (takeFileName fp) "tex"
 
 
 -- | Compile the course with course compiler.
-courseToLaTeX :: FilePath -> Action Value
+courseToLaTeX :: FilePath -> Action ()
 courseToLaTeX fp = do
   txt <- readFile' fp
   let rdr  = readMarkdown optReader
       wrr  = writeLaTeX optWriter
-    in do cs       <- adjustPrereq fp <$> loadUsing rdr wrr (pack txt)
+      transMeta = adjustPrereq fp . addLabel fp
+    in do cs       <- transMeta <$> loadUsing rdr wrr (pack txt)
           rendered <- renderWithTemplate "src/templates/course.tex" cs
           writeFile' (courseDestName fp) (unpack rendered)
-          return $ getCode fp cs
 
 
 -- | Compute the code for the course.
 getCode :: FilePath -> Value -> Value
 getCode fp v = case v of
-  Object o -> H.lookupDefault err "code" o
+  Object o -> normaliseCode $ H.lookupDefault err "code" o
   _        -> err
   where err = error $ unwords ["course:", fp, ": no course code available"]
 
@@ -99,3 +99,15 @@ attachPrefix _   _         = error "attachPrefix: expecting an array"
 adjustPrereq :: FilePath -> Value -> Value
 adjustPrereq _  (Object o) = Object $ H.adjust  (attachPrefix "course") "prereq" o
 adjustPrereq fp _           = error $ unwords ["course:", fp, ": improper meta data"]
+
+addLabel :: FilePath -> Value -> Value
+addLabel fp obj@(Object o)= Object $ H.insert "label" l o
+  where l = label $ getCode fp obj
+
+label :: Value -> Value
+label (String t) = String $ "syllabus-" <> toLower t
+label _          = error "label: expected string but got something else"
+
+normaliseCode :: Value -> Value
+normaliseCode (String t) = String $ toUpper t
+normaliseCode _          = error "normaliseCode: expected string but got something else"
