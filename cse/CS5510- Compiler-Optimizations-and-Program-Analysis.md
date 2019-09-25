@@ -1,7 +1,11 @@
- 
- |Title|Code|Category|Credits|Prereq|Consent|
- | :---: | :---: | :---: | :---: | :---: | :---:|
- |Compiler Optimizations and Program Analysis|CS5510|ERC|3-0-0-3| CS3300<br>Compiler Design | Required|
+---
+title: Compiler Optimisation and Program Analysis
+code: CS5510
+category: ERC
+credits: 3-0-0-3
+prereq: [CS3300]
+consent: yes
+---
  
 
 # Learning Objectives:
