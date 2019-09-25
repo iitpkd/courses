@@ -24,7 +24,7 @@ The fields in the metadata are the following.
 
 ## Setting up the environment.
 
-You need cabal-install-3.0 or later for building the haskell driver
+You need cabal-install-3.0 and ghc-8.4.4 for building haskell driver
 program. If you are starting with a modern linux distribution, you can
 install cabal using the package manager. If the cabal install is older
 then perform the following
@@ -56,6 +56,13 @@ pdflatex all.tex  # compile it using pdflatex.
 
 ```
 
+## Building for a different cabal/ghc
+
+The `cabal.project.freeze` file available with this repository is for
+fixing the versions of all dependency, including the base library for
+this package. If you want to try it with a different version of cabal
+and ghc compiler, you may want to get rid of the freeze file. You may
+want to do this when a new version of cabal/ghc is released.
 
 [travis-status]: <https://secure.travis-ci.org/iitpkd/courses.png> "Build status"
 [travis-courses]: <https://travis-ci.org/iitpkd/courses>
