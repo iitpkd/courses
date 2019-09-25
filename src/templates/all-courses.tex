@@ -1,0 +1,27 @@
+\documentclass{book}
+\usepackage{hyperref}
+\usepackage[pagestyles]{titlesec}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\newpagestyle{main}{
+\sethead[\thepage][][] % even
+  {}{}{\thepage}} % odd
+\pagestyle{main}
+
+\titleformat{\chapter}[display]
+  {\bfseries\Large}
+  {
+  %\filright\MakeUppercase{\chaptertitlename} \Huge\thechapter
+  }
+  {1ex}
+  {\titlerule\vspace{1ex}\filleft}
+  []
+
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+{{#courses}}
+{{=<% %>=}}
+    \input{<%course%>}
+<%={{ }}=%>
+{{/courses}}
+\end{document}
