@@ -1,31 +1,23 @@
-
-\chapter{ {{code}}: {{title}} } \label{ {{label}} }
-
-
+{{=<< >>=}}
+\chapter{<<code>>: <<title>>} \hypertarget{syllabus-<<code>>}
 \begin{description}
 \tightlist
 \item[Course Code]
-{{code}}
+<<code>>
 \item[Category]
-{{category}}
+<<category>>
 \item[Credits]
-  {{credits}}
-
-  {{#consent}}
+  <<credits>>
+  <<#consent>>
 \item[Instructor Consent]
   required
-  {{/consent}}
-
-  {{^consent}}
+  <</consent>>
+  <<^consent>>
 \item[Instructor Consent]
   automatic
-  {{/consent}}
-
-
+  <</consent>>
 \item[Pre-requisites]
-  {{#prereq}} \hyperref[{{course}}]{ {{course}} } {{/prereq}}
-
-
+  <<#prereq>> \hyperlink{syllabus-<<course>>}{<<course>>} <</prereq>>
 \end{description}
-
-{{content}}
+<<content>>
+<<={{ }}=>>
