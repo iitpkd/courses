@@ -6,7 +6,7 @@ credits: 3-0-0-3
 prereq: [CS3300]
 consent: yes
 ---
- 
+
 
 # Learning Objectives:
 The objective of the course is to give students a deeper perspective into the internals of a
