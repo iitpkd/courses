@@ -9,7 +9,7 @@ import           Development.Shake
 import           Slick
 import           Slick.Pandoc
 import           System.FilePath
-import           Text.Pandoc       ( readMarkdown, writeLaTeX)
+import           Text.Pandoc
 
 
 -- | Where are the courses.
@@ -23,6 +23,17 @@ artefact = ".artefact"
 
 texSrcDir :: FilePath
 texSrcDir = artefact </> "latex"
+
+optReader :: ReaderOptions
+optReader = def { readerExtensions = exts }
+  where exts = readerExtensions def
+               <> multimarkdownExtensions
+               <> extensionsFromList [Ext_yaml_metadata_block]
+
+optWriter :: WriterOptions
+optWriter = def
+
+
 
 ------------------------ The driver program -----------------
 main :: IO ()
@@ -53,8 +64,8 @@ courseDestName fp = texSrcDir </>replaceExtensions (takeFileName fp) "tex"
 courseToLaTeX :: FilePath -> Action Value
 courseToLaTeX fp = do
   txt <- readFile' fp
-  let rdr  = readMarkdown def
-      wrr  = writeLaTeX def
+  let rdr  = readMarkdown optReader
+      wrr  = writeLaTeX optWriter
     in do cs       <- adjustPrereq fp <$> loadUsing rdr wrr (pack txt)
           rendered <- renderWithTemplate "src/templates/course.tex" cs
           writeFile' (courseDestName fp) (unpack rendered)
