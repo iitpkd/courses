@@ -3,7 +3,7 @@ title: Design and Analysis of Algorithms
 code: CS2040
 category: PMT
 credits: 3-1-0-4
-prereq: Data Structures and Algorithms
+prereq: [CS2800]
 consent: No
 ---
 

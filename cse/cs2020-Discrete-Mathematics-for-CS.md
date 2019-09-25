@@ -3,7 +3,7 @@ title: Discrete Mathematics for Computer Science
 code: CS22020
 category: PMT
 credits: 3-0-0-3
-prereq: CS2100 Logic for Computing
+prereq: [CS2100]
 consent: No
 ---
 

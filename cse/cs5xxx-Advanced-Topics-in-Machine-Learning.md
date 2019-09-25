@@ -3,9 +3,14 @@ title: Advanced Topics in Machine Learning
 code: CS6xxx
 category: PME/PME*(3 credit)
 credits: 3-0-0-3
-prereq: Any introductory course on Machine Learning
+prereq: []
 consent: Yes
 ---
+
+# Prerequisites
+
+Any introductory course on Machine Learning
+
 # Learning Objectives
 
 The objective of the course is to equip the student to recognize and solve modern machine learning problems those arise in practical applications. 
