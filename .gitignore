@@ -1,6 +1,11 @@
 syllabus.pdf
 cse.tex
 *.fdb_latexmk
+artefact
+.shake
+.dist
+.stack-work/
+dist-newstyle/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
