@@ -25,6 +25,7 @@ addons:
       - cabal-install-3.0
       - ghc-8.4.4
       - latexmk
+      - texlive-latex-extra
     sources: [hvr-ghc]
 
 before_install:
