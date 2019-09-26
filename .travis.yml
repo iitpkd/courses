@@ -42,7 +42,7 @@ script:
   - cabal build
   - cabal exec driver
   - cd artefact/latex
-  - latexmk -pdf  -halt-on-error all.tex
+  - latexmk -pdf  all.tex -interaction=nonstopmode
 
 after_success:
   - echo "All is well."
