@@ -74,4 +74,10 @@ area and their current complexity statuses.
 2.  Parameterized Complexity Theory by J. Flum and M. Grohe.
     Springer-Verlag Berlin Heidelberg, 2006. ISBN: 978-3-540-29953-0.
 
-  --------------------------- ----------------------------------------- ------------------- ------------ -------------- -----------------
+
+# Metadata
+Proposing Faculty : Krithika Ramaswamy 
+Department/Centre : Computer Science and Engineering 
+Programme : B.Tech/M.Tech/M.S/Phd 
+Proposal Type: New 
+Course Offerings: Jul-Nov 2019
