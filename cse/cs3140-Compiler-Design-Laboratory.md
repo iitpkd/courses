@@ -1,5 +1,10 @@
 ---
-**CS3140 Compiler Design Laboratory** - companion lab
+title: Compiler Design Laboratory
+code: CS3140
+category: XXX
+credits: 3-0-0-3
+prereq: 
+---
 
 Week1: Specification of language tokens using one of the tools for
 lexical analysis: lex, flex, ml-lex .
@@ -20,4 +25,14 @@ Week9 and Week10: Conversion of AST to an intermediate code.
 
 Week 11 and Week 12: Code generation from the intermediate code for a
 specific compute architecture: MIPS.
+
+
+# Metadata
+Proposing Faculty: 
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
 
