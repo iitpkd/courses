@@ -1,5 +1,11 @@
 ---
-**CS2130 Data Structures and Algorithms Laboratory**
+title: Data Structures and Algorithms Laboratory
+code: CS2130
+category: XXX
+credits: 3-0-0-3
+prereq: 
+---
+
 
 This is a companion lab of the Data Structures and Algorithms course. In
 this course the students will learn to implement basic data structures
@@ -43,4 +49,14 @@ implementations. Infix to postfix conversion and expression evaluation.
 Weeks 9 to 12: Graphs - Adjacency matrix and adjacency list
 representations, DFS, BFS. Binary Trees, Tree traversals, Binary search
 trees. B-Trees.
+
+
+# Metadata
+Proposing Faculty: 
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
 
