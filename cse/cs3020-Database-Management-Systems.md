@@ -1,12 +1,19 @@
 ---
-**CS3020 Database Management Systems**
+title: Database Management Systems
+code: CS3020
+category: XXX
+credits: 3-0-0-3
+prereq: 
+---
 
-Learning Objectives: This course provides an introduction to relational
+# Learning Objectives
+This course provides an introduction to relational
 database systems. The topics covered include the relational model, SQL,
 transactions, database design, and concepts and algorithms for building
 database management systems.
 
-Learning Outcomes: Upon successful completion, the students will be able
+# Learning Outcomes
+Upon successful completion, the students will be able
 to define program-data independence, data models for database systems,
 database schema and database instances. He/she will able to recall
 Relational Algebra concepts, and use it to translate queries to
@@ -20,7 +27,7 @@ approach. Student will also be able to analyze and design a real
 database application and develop and evaluate a real database
 application using a database management system.
 
-Syllabus:
+# Syllabus
 
 Introduction - General introduction to database systems; Database -
 DBMS distinction, approaches to building a database, data models,
@@ -59,7 +66,7 @@ processing, ACID properties, concurrency control, locking based
 protocols for CC, error recovery and logging, undo, redo, undo-redo
 logging and recovery methods.
 
-Text books
+# Text books
 
 1.  Database System Concepts (Sixth Edition) Avi
     Silberschatz, Henry F. Korth, S. Sudarshan McGraw-Hill 2011 ISBN
@@ -68,7 +75,7 @@ Text books
     Johannes Gehrke McGraw-Hill ©2003 ISBN: 978-0072465631/
     0-07-246563-8
 
-References
+# References
 
 1.  Fundamentals of Database Systems, 7th Edition Ramez Elmasri,
     University of Texas at Arlington Shamkant B. Navathe Pearson India
@@ -76,4 +83,14 @@ References
 2.  Database Systems: The Complete Book, (2nd Edition, 2014) Hector
     Garcia-Molina, Jeffrey D Ullman and Jennifer Widom Pearson India
     ISBN: 978-9332518674, 9-33-251867-X
+
+
+# Metadata
+Proposing Faculty: 
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
 
