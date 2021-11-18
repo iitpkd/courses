@@ -1,7 +1,15 @@
----
-**CS3040 Compiler Design**
 
-Learning Objectives: A compiler is a program that converts high level
+---
+title: Compiler Design
+code: CS3040
+category: XXX
+credits: 3-0-0-3
+prereq: [CSXXXX]
+---
+
+
+# Learning Objectives
+A compiler is a program that converts high level
 (human understandable) language to low level (machine understandable)
 code. Compilers are what makes writing modern software possible and
 their study has been one of the classical topics in an Undergraduate
@@ -11,13 +19,14 @@ compiler like parsing, code generation etc. Simultaneously, the students
 will be familiarised with the various tools that are used for building
 modern compilers.
 
-Learning Outcomes: At the end of the course we expect the student to
+# Learning Outcomes
+At the end of the course we expect the student to
 know enough of the theory (Parsing, Code generation, optimisation) and
 tools (parser generators, code generators) so that they can build a
 compiler that converts from a non-trivial high level language to machine
 code.
 
-Syllabus:
+# Syllabus
 
 Introduction to language translators and overview of the compilation
 process.
@@ -39,7 +48,7 @@ Code optimization: basic blocks, liveness, register allocation.
 Advanced topics: Overview of machine dependent and independent
 optimizations.
 
-Textbook(s)
+# Textbook(s)
 
 1.  Compilers: Principles, Techniques, and Tools, Alfred Aho, Monica
     Lam, Ravi Sethi, Jeffrey D. Ullman, Addison-Wesley, 2007
@@ -48,4 +57,14 @@ Textbook(s)
 3.  Compiler Construction: Principles and Practice, 1st Edition,
     Kenneth C. Louden, Cengage Learning; 1 edition (January 24, 1997),
     ISBN-13: 978-0534939724
+
+
+# Metadata
+Proposing Faculty: 
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
 
