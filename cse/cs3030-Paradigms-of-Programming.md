@@ -1,14 +1,23 @@
----
-**CS3030 Paradigms of Programming**
 
-Learning Objectives: To learn all different paradigms of programming,
+---
+title: Paradigms of Programming
+code: CS3030
+category: XXX
+credits: 3-0-0-3
+prereq: [CSXXXX]
+---
+
+
+# Learning Objectives
+To learn all different paradigms of programming,
 their advantages and disadavantages and to be able to apply in practical
 problems.
 
-Learning Outcomes: To be able to choose appropriate paradigm based on
+# Learning Outcomes
+To be able to choose appropriate paradigm based on
 the situation given.
 
-Syllabus:
+# Syllabus
 
 Introduction to paradigms of programming. Definition, motivation, and
 use cases. A brief history of programming languages and paradigms.
@@ -31,7 +40,7 @@ Logic paradigm: Review of predicate logic, clausal-form logic, logic as
 a programming language, Unification algorithm, Abstract interpreter for
 logic programs, Semantics of logic programs. Definite clause grammars
 
-Text books
+# Text books
 
 1.  Programming Languages: Principles and Paradigms, Maurizio
     Gabbrielli, Simone Martini, Springer; 2010 edition (15 April 2010)
@@ -40,4 +49,13 @@ Text books
     Education; 2 edition (2006) ISBN-13: 978-8177584226
 3.  Programming Language Pragmatics, Scott Michael L, Elsevier
     India (2014) ISBN-13: 978-8131222560
+
+# Metadata
+Proposing Faculty: 
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
 
