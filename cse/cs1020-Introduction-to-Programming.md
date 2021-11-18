@@ -1,116 +1,71 @@
 ---
-title: Logic for Computing
-code: CS2010
-category: PMT
-credits: 3-0-0-3
+title: Introduction to Programming
+code: CS1020
+category: BET
+credits: 2-0-2-4
+prereq: []
+consent: Yes
 ---
 
-# Learning Objective
+# Learning Objectives:
 
-Rigorous mathematical reasoning based on Logic and Set Theory is the basic
-method of Computer Science. Moreover, Logic is a very important tool in many
-areas of Computer Science like Computer Architecture (Logic Gates), Software
-Engineering (Specification and Verification), Programming Languages (Semantics,
-Logic Programming), Databases (Relational Algebra and SQL), Artificial
-Intelligence (Automatic Theorem Proving), Algorithms (Complexity and
-Expressiveness), and Theory of Computation (General Notions of Computability).
-The first objective of this course is to introduce the students to Set Theory
-and Logic and train them for rigorous mathematical reasoning. The second
-objective is to equip them with the background needed to learn the specific
-topics in Logic needed for other areas of Computer Science.
+No prior programming experience is assumed. The main objective is to
+develop the skill to solve simple computational problems by designing
+step by step logical solutions and converting them to computer programs.
+Standard programming constructs like conditional execution, iteration,
+arrays and functions will be introduced. Basics of organization of a
+computing unit and computer representation of numbers will also be
+covered. Towards the last part of the course students will be introduced
+to data abstraction. This course will provide students with sufficient
+coding skills for any course with a programming component like
+Programming and Data Structures, Computational methods and CAD
+Laboratory.
 
-# Learning Outcome
+# Learning Outcomes:
 
-After successful completion of this course, a student will be able to
+By the end of the course, students will be able to design and code
+simple moderate sized (100 to 200 lines) programs for solving simple
+computational tasks. Students will also be able to understand and debug
+moderate sized programs written by others. Through the lab exercises,
+students will be able to write modular and maintainable programs,
+following one of the standard coding conventions.
 
-1.	Follow a rigorous mathematical proof and identify gaps in reasoning if any.
-2.	Convert sentences in natural language to logical expressions and vice versa.
-3.	Apply standard proof techniques to prove statements about simple
-	mathematical structures like Natural Numbers and Groups.
-4.	Prove properties of recursively defined structures using structural induction.
+# Syllabus:
 
-# Syllabus
+Basic organization of a computer: ALU, input-output units, memory,
+program counter - variables and addresses - instructions: store,
+arithmetic, input and output, different data types and their computer
+epresentation, ranges and overflow,
 
+Simple sequential programs, conditional instruction: if then else,
+control flow diagrams, nested conditions, Iterations: while loop and its
+control fow,
 
-## Introduction to Logic and Proofs (12 lectures)
+Arrays indexing, memory model, programs with array of integers, two
+dimensional arrays, variants of conditional and iterative instructions
 
-History of logic, Role of logic in Computer Science. Logic puzzles - Wason selection task, Knights and Knaves.
+Functions, modularity, declaration and definition, function call and
+return and associated control flow, functions with parameters, returning
+a value, multiple parameters, data flow during function call, modifying
+parameters inside functions using pointers, arrays as parameters.
 
-Propositional logic - introduction and applications. Propositional
-equivalences. Predicate logic - predicates, variables, quantifiers, nested
-quantifiers. Rules of inference - valid arguments. Proof Techniques - Direct
-proof, Proof by contraposition, Proof by contradiction, Proof by cases,
-Exhaustive proofs, Existential proofs.  Examples of each.
+User-defined data types, pointers, dereferencing and address operators,
+pointer and address arithmetic, array manipulation using pointers.
 
-## Naive Set Theory (6 lectures)
+C programming language will be used for instruction.
 
-Review of elementary set theory. Computer representation of sets. Russell's
-paradox. Review of functions - injections, surjections and bijections.
-Schröder–Bernstein theorem.  Cardinality of sets, Countable and uncountable
-sets, Cantor's diagonalisation argument. Infinitely many infinities.
+# Textbook(s)
 
-## Induction and Recursion (6 lectures)
+1.  The C Programming Language  
+    Brian W. Kernighan and Dennis M. Ritchie (2nd Edition, 1988), 
+    Prentice Hall 
+    (ISBN:978-0131103627)
+2.  Schaum's Outline of Programming with C by Byron S Gottfried (1996),
+    McGraw-Hill Education (ISBN:978-0070240353)
 
-Mathematical induction, Strong induction and Well ordering principle. Proofs
-using them. Recursively defined objects and Structural induction.
+# Metadata (to be verified)
 
-## Relations (6 lectures)
-
-Relations- properties, applications, representations. Closure of relations.
-Equivalence relations and Partial orders.
-
-## A Glimpse of Number theory (6 lectures)
-
-Modular arithmetic, Primes, GCD, the Euclidean Algorithm, Bézout's identity.
-Solving congruences, the Chinese Remainder Theorem, Fermat's little theorem.
-Primitive roots and Discrete logarithms. Applications to cryptography - the RSA
-cryptosystem.
-
-
-## A Formal Revisit to Logic [6 lectures]
-
-Relational structures and signatures. Syntax - terms, formulas and sentences.
-Scope of quantifiers, free and bounded occurrences of variables. Valuation and
-interpretation. First-order theories, models and axiomatisation.
-
-# Textbooks
-
-1. 	Kenneth Rosen,
-	*Discrete Mathematics and Applications*,
-	McGraw-Hill Education (7th Edition).
-	ISBN-13: 978-0073383095
-
-2.	Dexter Kozen,
-	*Theory of Computation (Chapter E.)*,
-	Springer India (1 December 2007).
-	ISBN-13: 978-8181286963
-
-# Reference
-
-1.	Michael Huth and  Mark Ryan,
-	*Logic in Computer Science: Modelling and Reasoning about Systems*,
-	Cambridge University Press (2nd edition).
-	ISBN-13: 978-0521543101
-
-# Casual Reading
-
-1.	Raymond M. Smullyan,
-	*What is the Name of This Book?: The Riddle of Dracula and Other Logical Puzzles*,
-	Dover Publications.
-	ISBN-13: 978-0486481982
-
-2.	Irving M . Copi,
-	*Introduction to Logic*
-	Pearson Education (14th edition)
-	ISBN-13: 978-9332539617
-
-
-# Metadata
-
-* Proposing Faculty : Deepak Rajendraprasad
+* Proposing Faculty : Dr. Jasine Babu.
 * Department / Centre : Computer Science and Engineering
-* Programme : B.Tech
-* Proposal Type: New course containing two-thirds of the the old course
-	CS2100 Discrete Mathematics for Computer Science
-	(2015 and 2016 curriculum) and two new sections
-	(a glimpse of number theory, and a formal revisit to logic)
+* Programme : B.Tech (all branches)
+* Proposal Type: Replacement course for CS1100 Computational Engineering
