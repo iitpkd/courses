@@ -1,14 +1,21 @@
 ---
-**CS2080 Artificial Intelligence**
+title: Artificial Intelligence
+code: CS2080
+category: PMT
+credits: 3-0-0-3
+prereq: []
+---
 
-Learning Objectives: To learn about major disciplines in artificial
+# Learning Objectives 
+To learn about major disciplines in artificial
 intelligence, their fundamental differences and applicability.
 
-Learning Outcomes: Students will be able to state and apply major
+# Learning Outcomes 
+Students will be able to state and apply major
 algorithms, methods, and theoretical results in the field of artificial
 intelligence.
 
-Syllabus:
+# Syllabus
 
 Introduction: What is AI, agent, environment and its Applications.
 
@@ -33,7 +40,7 @@ models.
 Discussion of practical cases from various domains: natural language
 processing, computer vision, bioinformatics etc.
 
-Text books
+# Text books
 
 1.  Artificial Intelligence : A Modern Approach (Paperpack). Stuart
     Russell and Peter Norvig. Pearson; 3 edition. 2010 ISBN-13:
@@ -48,7 +55,7 @@ Text books
 5.  Reinforcement Learning: An Introduction. Richard S. Sutton Andrew G.
     Barto . MIT Press, 2017. ISBN-13: 9780262332767
 
-References
+# References
 
 1.  Genetic Algorithms in Search, Optimization, and Machine Learning.
     David E. Goldberg. Pearson Education, 2006. ISBN-13: 9788177588293.
@@ -73,4 +80,14 @@ References
 9.  Bayesian Data Analysis. Andrew Gelman, John Carlin, Hal Stern, David
     Dunson, Aki Vehtari, and Donald Rubin. Third Edition. 2013. ISBN-13:
     978-1439840955.
+
+
+# Metadata
+Proposing Faculty: 
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
 
