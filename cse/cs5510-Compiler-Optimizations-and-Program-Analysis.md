@@ -52,5 +52,12 @@ First edition (January 24, 1997), ISBN-13: 978-0534939724
 2. Data Flow Analysis: Theory and Practice, Uday P. Khedker, Amitabha Sanyal, and Bageshri Karkare, CRC Press, USA (2009).
 
 
+# Metadata
 Proposing Faculty: Dr. Unnikrishnan C
-Department / Centre: Computer Science and Engineering
+Department: Computer Science and Engineering
+Programme: B.Tech
+Proposing date:
+Approved date:
+Proposal type:
+Offerings:
+
