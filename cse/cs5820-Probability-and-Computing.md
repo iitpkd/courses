@@ -6,14 +6,6 @@ credits: 3-0-0-3
 prereq: 
 ---
 
-  --------------------------- ----------------------------------------- ------------------- ------------ -------------- -----------------
-  **Course Code and Title**   **CS5820: Probability and Computing**                                                     
-  **Programme**               **M.Tech in Computing and Mathematics**   **Year of study**   **1 or 2**   **Semester**   **2 or higher**
-  **Course credit**           **3-0-0-3**                                                                               
-  **Course category**         **PME**                                                                                   
-  **Prerequisite, if any**    **-**                                                                                     
-  --------------------------- ----------------------------------------- ------------------- ------------ -------------- -----------------
-
 # Course Objective
 To introduce the power of probability theory and randomization
 techniques in computer science, with particular emphasis on analyzing
